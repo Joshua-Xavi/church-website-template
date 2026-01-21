@@ -211,7 +211,6 @@ h4, h5, h6, .h4, .h5, .h6 {
   min-height: 70vh;          /* responsive height */
   padding-top: 15rem;
   padding-bottom: 6rem;
-
   background: url("../img/hero.jpg") center center / cover no-repeat;
   background-attachment: fixed;
 
