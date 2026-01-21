@@ -207,15 +207,15 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
-    padding-top: 15rem;
-    padding-bottom: 6rem;
-   /* min-height: 500px; */
-  background: url("../img/hero.jpg") center center no-repeat;
-  background-size: cover;
-  display: flex;
-  background-position: center 0%;
+    width: 100%;
+  min-height: 70vh;          /* responsive height */
+  padding-top: 15rem;
+  padding-bottom: 6rem;
+
+  background: url("../img/hero.jpg") center center / cover no-repeat;
   background-attachment: fixed;
+
+  display: flex;
 }
 
 .hero-header .hero-header-inner {
