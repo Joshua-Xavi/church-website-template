@@ -279,9 +279,9 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 .carousel-container{
     position: relative;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
     
 }
 
@@ -319,7 +319,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 .slider-wrapper .image-list{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 18px;
+    gap: 20px;
     overflow-x:auto;
     scrollbar-width: none;
 }
@@ -330,7 +330,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 .slider-wrapper .image-list .image-item{
     width: 352px;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
 }
 
